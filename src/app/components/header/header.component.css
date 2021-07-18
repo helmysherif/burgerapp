@@ -1,0 +1,84 @@
+.header-section
+{
+    background-color: rgba(255,197,82,255);
+}
+.navbar-expand-lg .navbar-collapse
+{
+    display:inline-grid !important;
+}
+.navbar form
+{
+    width: 284px !important;
+    margin-left: auto;
+    margin-top:15px;
+    text-transform: capitalize;
+    font-weight: 600;
+    color:#3c2513;
+}
+.navbar-brand
+{
+    font-size: 30px;
+    text-transform: uppercase;
+    color:#3c2513;
+    font-weight: bold;
+}
+.navbar form i
+{
+    color:#fff;
+    font-size: 25px;
+    margin-right: 10px;
+}
+.nav-link
+{
+    text-decoration: none;
+    color:#3c2513;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 600;
+    display: inline-block;
+    margin-top:10px;
+}
+.title
+{
+    margin:75px 0;
+}
+.title span
+{
+    display: inline-block;
+    text-transform: uppercase;
+    color:#3c2513;
+    font-size:20px;
+    font-weight: 600;
+    border:1px dashed #3c2513;
+    padding:15px;
+}
+.title h1 , .title h2
+{
+    font-size: 100px;
+    font-weight:900;
+    text-transform: uppercase;
+    color:#3c2513;
+    text-shadow: 2px 2px 10px #fff;
+    margin:0;
+    padding:0;
+}
+.title h2
+{
+    font-size:70px;
+    margin:0;
+    padding:0;
+}
+@media (max-width:500px)
+{
+    .title h1
+    {
+        font-size: 87px;
+    }
+}
+@media (min-width:768px) and (max-width:1200px)
+{
+    .title
+    {
+        margin:0;
+    }
+}

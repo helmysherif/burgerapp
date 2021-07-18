@@ -1,0 +1,35 @@
+.news
+{
+    position: relative;
+}
+.news img 
+{
+    border-radius:10px;
+}
+.news .caption
+{
+    position: absolute;
+    top:20px;
+    left:20px;
+    color:#fff;
+}
+.news .caption p,
+.news .caption h5
+{
+    margin:0;
+    padding:0;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.news .caption p
+{
+    font-size: 24px;
+}
+.news .caption h5
+{
+    font-size: 35px;
+}
+.burger
+{
+    height:200px;
+}

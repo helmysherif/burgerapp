@@ -1,0 +1,50 @@
+.title a
+{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:#3c2513;
+    font-size: 20px;
+    background-color: rgba(255,197,82,255);
+    padding:10px;
+    display:inline-block;
+    font-weight: bold;
+    margin:auto;
+    margin-bottom: 25px;
+}
+.title h2
+{
+    font-size:80px;
+    text-transform: uppercase;
+    font-weight:bolder;
+    color:#3c2513;
+}
+.title p
+{
+    color:#3c2513;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.burger-caption h4
+{
+    color:#3c2513;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+}
+.burger-caption p
+{
+    font-size: 18px;
+    color:#3c2513;
+}
+.burger-caption a
+{
+    text-decoration: none;
+    text-transform: capitalize;
+    color:#fff;
+    font-weight: bold;
+    font-size: 22px;
+    background-color: rgba(255,197,82,255);
+    padding:13px 30px;
+    display: inline-block;
+    margin-top:10px;
+}

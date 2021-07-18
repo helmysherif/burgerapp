@@ -1,0 +1,59 @@
+.event-section .carousel
+{
+    box-shadow: 0 2px 20px rgba(0,0,0,.5);
+    padding:20px;
+    position: relative;
+}
+.carousel-indicators
+{
+    position: absolute;
+    width: 10%;
+    left: -207px;
+}
+.carousel-indicators button
+{   
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    opacity: 1;
+    background-color: lightgrey;
+}
+.carousel-indicators button.active
+{
+    background-color: rgba(255,197,82,255);
+}
+.event-section p
+{
+    text-transform: uppercase;
+    color:#3c2513;
+    font-size: 20px;
+    font-weight: bold;
+    margin:0;
+    padding:0;
+}
+.event-section h3
+{   
+    font-size:50px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.event-section span
+{
+    display: inline-block;
+    font-size: 19px;
+    text-align: justify;
+}
+@media all and (max-width:991px)
+{
+    .carousel-indicators
+    {
+        display: none;
+    }
+}
+@media all and (max-width:500px)
+{
+    .event-section h3
+    {
+        font-size: 40px;
+    }
+}
